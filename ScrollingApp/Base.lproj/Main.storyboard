@@ -39,13 +39,16 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6K-EN-Y4w">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="lBn-MS-KLZ"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OzV-da-EjN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="23J-Zn-qwg"/>
-                            <constraint firstAttribute="trailing" secondItem="h6K-EN-Y4w" secondAttribute="trailing" id="8UA-Ye-f5m"/>
+                            <constraint firstItem="h6K-EN-Y4w" firstAttribute="centerX" secondItem="OzV-da-EjN" secondAttribute="centerX" id="49h-B3-u0o"/>
                             <constraint firstItem="P7U-6q-652" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="93d-zu-LiD"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bnp-dA-GXq" secondAttribute="bottom" id="O50-M7-p4o"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OzV-da-EjN" secondAttribute="bottom" id="Xw9-Ov-L9Z"/>
@@ -54,7 +57,6 @@
                             <constraint firstAttribute="trailing" secondItem="OzV-da-EjN" secondAttribute="trailing" id="fQ7-c1-unZ"/>
                             <constraint firstAttribute="trailing" secondItem="Bnp-dA-GXq" secondAttribute="trailing" id="h74-VR-XNI"/>
                             <constraint firstItem="OzV-da-EjN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jUA-Yw-AKA"/>
-                            <constraint firstItem="h6K-EN-Y4w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mpt-2D-O6T"/>
                             <constraint firstItem="h6K-EN-Y4w" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pzJ-CF-dzt"/>
                             <constraint firstItem="Bnp-dA-GXq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tvG-lN-9pR"/>
                         </constraints>
